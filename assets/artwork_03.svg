@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#0f1220"/>
+  <rect x="80" y="80" width="640" height="440" rx="16" fill="#22274a" stroke="#2a2f57"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" fill="#8ab4ff">Artwork Placeholder 03</text>
+</svg>
+

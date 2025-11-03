@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>APEX – Contemporary Art</title>
+    <meta name="description" content="APEX: Contemporary Artists, Exhibitions, Works. 작가 프로필, 포트폴리오, 작품 갤러리." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="APEX – Contemporary Art" />
+    <meta property="og:description" content="Contemporary Artists, Exhibitions, Works." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-image.png" />
+    <meta property="og:url" content="https://jeongwoo0415.github.io/" />
+
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a href="#top" class="brand" aria-label="홈으로">APEX</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">메뉴</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about">회사소개</a></li>
+          <li><a href="#artists">작가</a></li>
+          <li><a href="#artworks">작품</a></li>
+          <li><a href="#contact">연락</a></li>
+          <li><a href="#submit">작가 지원</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section id="top" class="section hero">
+        <div class="container hero-inner">
+          <img src="assets/apex_logo.svg" alt="APEX 로고" class="brand-hero" />
+          <div class="hero-text">
+            <h1>APEX</h1>
+            <p class="subtitle">Contemporary Artists & Exhibitions – 프로필, 포트폴리오, 작품</p>
+            <div class="cta-group">
+              <a class="btn primary" href="#artists">작가 둘러보기</a>
+              <a class="btn" href="#contact">문의하기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About (Company) -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>회사소개</h2>
+          <div class="grid about-cards">
+            <article class="card">
+              <h3>소개 1</h3>
+              <p>APEX는 동시대 미술을 선보이는 플랫폼이자 기획사로, 국내외 유망 작가와 협업합니다.</p>
+            </article>
+            <article class="card">
+              <h3>소개 2</h3>
+              <p>전시 기획, 작품 아카이브, 온라인/오프라인 세일즈를 통합 제공하여 가시성과 접근성을 높입니다.</p>
+            </article>
+            <article class="card">
+              <h3>소개 3</h3>
+              <p>수집가와 대중을 위한 전문 큐레이션과 투명한 정보를 통해 건강한 미술 생태계를 지향합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Artists -->
+      <section id="artists" class="section alt">
+        <div class="container">
+          <h2>작가</h2>
+          <div class="grid">
+            <article class="card artist-card">
+              <img class="artist-photo" src="assets/baek.jpg" alt="백남준 프로필 이미지" />
+              <h3>백남준</h3>
+              <p class="artist-meta">미디어아트 · 서울 | 1932–2006</p>
+              <p>비디오와 전자 미디어를 예술의 언어로 확장한 선구적 작업.</p>
+              <div class="badges tags">
+                <span>미디어</span><span>비디오</span><span>퍼포먼스</span>
+              </div>
+              <div class="links">
+                <a href="#" aria-label="포트폴리오">포트폴리오</a>
+              </div>
+            </article>
+            <article class="card artist-card">
+              <img class="artist-photo" src="assets/dali.jpg" alt="살바도르 달리 프로필 이미지" />
+              <h3>살바도르 달리</h3>
+              <p class="artist-meta">회화 · 스페인 | 1904–1989</p>
+              <p>초현실주의적 상상과 상징으로 잠재의식의 세계를 시각화.</p>
+              <div class="badges tags">
+                <span>초현실</span><span>회화</span><span>상징</span>
+              </div>
+              <div class="links">
+                <a href="#">포트폴리오</a>
+              </div>
+            </article>
+            <article class="card artist-card">
+              <img class="artist-photo" src="assets/gogh.jpg" alt="빈센트 반 고흐 프로필 이미지" />
+              <h3>빈센트 반 고흐</h3>
+              <p class="artist-meta">회화 · 네덜란드 | 1853–1890</p>
+              <p>강렬한 붓질과 색채로 인간의 감정을 생생하게 포착한 화가.</p>
+              <div class="badges tags">
+                <span>후기인상</span><span>회화</span><span>색채</span>
+              </div>
+              <div class="links">
+                <a href="#">포트폴리오</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Artworks (Gallery) -->
+      <section id="artworks" class="section">
+        <div class="container">
+          <h2>작품</h2>
+          <div class="grid gallery">
+            <figure class="card">
+              <img class="thumb" src="assets/artwork_01.svg" alt="김아티스트, Layered City, 2024, Acrylic on canvas" />
+              <figcaption>Layered City (2024) · Acrylic on canvas · 100×80cm</figcaption>
+            </figure>
+            <figure class="card">
+              <img class="thumb" src="assets/artwork_02.svg" alt="박크리에이터, Long Exposure #7, 2023, Photograph" />
+              <figcaption>Long Exposure #7 (2023) · Photograph · 60×40cm</figcaption>
+            </figure>
+            <figure class="card">
+              <img class="thumb" src="assets/artwork_03.svg" alt="이메이커, Organic Form, 2025, Installation" />
+              <figcaption>Organic Form (2025) · Installation · Variable size</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>연락처</h2>
+          <p>
+            이메일: <a href="mailto:info@apex.art">info@apex.art</a>
+            · 인스타그램: <a href="#" target="_blank" rel="noopener">@apex.art</a>
+            · 주소: 서울시 ○○구 ○○로 123 APEX 스페이스
+          </p>
+          <p class="note">전시/작품 문의, 콜라보 제안은 이메일로 연락 주세요.</p>
+        </div>
+      </section>
+
+      <!-- Submission -->
+      <section id="submit" class="section alt">
+        <div class="container">
+          <h2>작가 지원</h2>
+          <p>
+            포트폴리오(PDF 또는 웹 링크), 작가노트(300–600자), 이력(전시/수상)을 아래 메일로 보내주세요.
+          </p>
+          <p>
+            제출: <a href="mailto:submission@apex.art?subject=%5BAPEX%20Submission%5D%20작가명">submission@apex.art</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> APEX. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script>
+      // 모바일 내비 토글
+      const toggle = document.querySelector('.nav-toggle');
+      const menu = document.getElementById('nav-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', () => {
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          menu.classList.toggle('open');
+        });
+      }
+      // 현재 연도
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
